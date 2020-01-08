@@ -10,7 +10,7 @@ class Owner
   end
   
   def cats 
-    
+    @cats
   end
   
   def say_species
