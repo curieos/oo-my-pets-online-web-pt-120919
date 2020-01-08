@@ -37,7 +37,6 @@ class Owner
       cat.mood = "nervous"
     end
   end
-  end
   
   def say_species
     "I am a #{species}."
