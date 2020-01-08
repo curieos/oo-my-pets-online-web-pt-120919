@@ -20,6 +20,12 @@ class Owner
     Dog.new(name, self)
   end
   
+  def walk_dogs
+    @dogs.each do |dog|
+      dog.mood
+    end
+  end
+  
   def say_species
     "I am a #{species}."
   end
