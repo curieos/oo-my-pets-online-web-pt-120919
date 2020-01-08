@@ -12,6 +12,10 @@ class Owner
     @@all << self
   end
   
+  def buy_cat
+    
+  end
+  
   def say_species
     "I am a #{species}."
   end
