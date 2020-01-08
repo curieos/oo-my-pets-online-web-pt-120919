@@ -14,6 +14,7 @@ class Owner
   
   def buy_cat(cat)
     @cats << cat
+    cat.owner = self
   end
   
   def say_species
